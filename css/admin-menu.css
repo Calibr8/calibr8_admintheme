@@ -1,0 +1,14 @@
+
+/* ADMIN MENU */
+/* --------------------------------------------------- */
+
+.toolbar .menu-item {
+  margin-bottom: 0;
+}
+.toolbar-icon-system-calibr8-styleguide:before {
+  background-image: url('../images/styleguide.svg');
+}
+.toolbar-icon-system-calibr8-styleguide.active:before,
+.toolbar-icon-system-calibr8-styleguide.is-active:before {
+  background-image: url('../images/styleguide-active.svg');
+}

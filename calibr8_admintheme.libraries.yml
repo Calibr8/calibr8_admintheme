@@ -1,0 +1,19 @@
+main:
+  version: 1.x
+  css:
+    theme:
+      css/styles.css: { weight: 90 }
+  js:
+    js/scripts.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings
+admin_menu:
+  version: 1.x
+  css:
+    theme:
+      css/admin-menu.css: { weight: 90 }
+  dependencies:
+    - core/drupal

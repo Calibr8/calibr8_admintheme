@@ -1,0 +1,211 @@
+
+/* GLOBALS */
+/* --------------------------------------------------- */
+
+.paragraphs-subform .form-wrapper {
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #888888 !important;
+}
+
+/* Page title */
+
+.node-form .field--name-title {
+  width: 100%;
+}
+.node-form .field--name-title input.form-text {
+  width: 100%;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.node-form .field--name-field-hide-page-title {
+  margin-top: -11px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #bfbfbf;
+  border-top: 0 none;
+}
+.node-form .field--name-field-hide-page-title .form-item {
+  margin: 0;
+}
+
+/* THEME SETTINGS */
+/* --------------------------------------------------- */
+
+.system-theme-settings #edit-theme-settings,
+.system-theme-settings #edit-logo,
+.system-theme-settings #edit-favicon {
+  display: none !important;
+}
+.system-theme-settings .theme-settings-intro {
+  margin-bottom: 30px;
+}
+
+/* PARAGRAPHS */
+/* --------------------------------------------------- */
+
+.paragraph-type-title .extra-markup {
+  margin: 5px 0;
+  color: #888888;
+}
+
+/* Layout settings */
+
+.form-wrapper-layout-settings {
+  background-color: #f7f7f7;
+}
+
+.form-wrapper-layout-settings .form-wrapper label {
+  display: inline-block;
+  width: 160px;
+}
+
+.field--name-field-title-align label:after,
+.field--name-field-text-align label:after,
+.field--name-field-paragraph-width label:after {
+  display: none;
+}
+
+/* Title fields */
+
+.title-style-group .field--type-list-string {
+  float: left;
+  width: 60px;
+  margin-right: 10px;
+}
+.title-style-group .field--type-list-string label {
+  visibility: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.title-style-group .field--type-string {
+  float: left;
+}
+.title-style-group .field--type-string label {
+  margin-left: -70px;
+}
+
+/* Cal to action */
+
+.field--name-field-call-to-action .field-multiple-table thead {
+  display: none;
+}
+.field--name-field-call-to-action .field-multiple-table .form-item {
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+}
+.field--name-field-call-to-action .field-multiple-table .form-type-select {
+  width: 20%;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.field--name-field-call-to-action .field-multiple-table .form-item:last-child {
+  width: 15%;
+  margin-right: 0;
+}
+.field--name-field-call-to-action .field-multiple-table .description {
+  display: none;
+}
+
+/* IMAGE FIELD */
+/* --------------------------------------------------- */
+
+/* Image */
+
+.field--type-image .details-description {
+  margin-bottom: 10px;
+}
+
+.field--type-image .button {
+  margin-left: 0;
+}
+
+.file--type-image img {
+  max-width: 150px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Edit image popup */
+
+.file-image-edit-form .field--name-uid,
+.file-image-edit-form .field--name-path,
+.file-image-edit-form .field--name-filename {
+  display: none;
+}
+
+/* Select image */
+
+.view-image-browser .views-row {
+  position: relative;
+  border: solid 3px #eee;
+  float: left;
+  width: 130px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+.view-image-browser .views-row.image-browser-selected {
+  border: solid 3px #0074bd;
+  box-sizing: border-box;
+}
+.view-image-browser .views-row.image-browser-selected:after {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  content: "v";
+  padding: 5px
+}
+.view-image-browser .views-row .file--type-image img {
+  width: 100%;
+  max-width: none;
+  display: block;
+}
+.view-image-browser .views-row .field--name-filename {
+  font-size: 10px;
+}
+.view-image-browser .views-row .form-type-checkbox {
+  margin: 0;
+}
+
+.entity-browser-image-form > .form-actions {
+  clear: both;
+  width: 100%;
+}
+
+.entity-browser-image-form .views-exposed-form .form--inline  .form-actions {
+  clear: none;
+  padding-top: 30px;
+}
+.eb-tabs ul { border-bottom: none; }
+
+/* Try improving the image select even further */
+.views-field-entity-browser-select .form-checkbox { display: none; }
+
+
+/* Edit/delete image */
+
+.field--widget-entity-browser-file table.entities-list {
+  table-layout: auto;
+}
+.field--widget-entity-browser-file table.entities-list tbody td:first-child {
+  width: 140px;
+}
+
+/* Hide stuff */
+details[data-drupal-selector="edit-display"],
+details[data-drupal-selector="edit-access"],
+details[data-drupal-selector="edit-access-create"],
+details[data-drupal-selector="edit-access-update"],
+details[data-drupal-selector="edit-access-view"],
+details[data-drupal-selector="edit-admin"],
+details[data-drupal-selector="edit-custom"],
+details[data-drupal-selector="edit-conditional"],
+details[data-drupal-selector="edit-element-attributes"],
+details[data-drupal-selector="edit-wrapper-attributes"],
+.form-item-replace-upload { display: none; }

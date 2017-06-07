@@ -1,0 +1,23 @@
+name: Calibr8 Administration theme
+description: 'Overrides for Seven admin theme.'
+type: theme
+package: Calibr8
+base theme: seven
+core: 8.x
+
+libraries:
+  - calibr8_admintheme/main
+  - calibr8_admintheme/admin_menu
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
