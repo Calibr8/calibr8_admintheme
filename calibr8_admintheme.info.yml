@@ -1,9 +1,10 @@
 name: Calibr8 Administration theme
-description: 'Overrides for Seven admin theme.'
+description: Overrides for seven admin theme.
 type: theme
 package: Calibr8
 base theme: seven
 core: 8.x
+version: '8.x-1.0'
 
 libraries:
   - calibr8_admintheme/main
