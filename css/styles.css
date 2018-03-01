@@ -111,93 +111,38 @@
   display: none;
 }
 
-/* IMAGE FIELD */
+
+/* FORMS */
+/* --------------------------------------------------- */
+.field--type-text-with-summary .filter-wrapper { padding: 0; border: none; }
+
+/* MEDIA */
 /* --------------------------------------------------- */
 
-/* Image */
+.eb-tabs ul { border: none; }
 
-.field--type-image .details-description {
-  margin-bottom: 10px;
-}
-
-.field--type-image .button {
-  margin-left: 0;
-}
-
-.file--type-image img {
-  max-width: 150px;
+.view-image-select img {
+  border: 2px solid #cccccc;
+  max-width: 95%;
+  max-height: 100%;
   height: auto;
-  margin-right: 10px;
 }
 
-/* Edit image popup */
-
-.file-image-edit-form .field--name-uid,
-.file-image-edit-form .field--name-path,
-.file-image-edit-form .field--name-filename {
-  display: none;
-}
-
-/* Select image */
-
-.view-image-browser .views-row {
-  position: relative;
-  border: solid 3px #eee;
+.view-image-select .views-row {
   float: left;
-  width: 130px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  word-wrap: break-word;
-  box-sizing: border-box;
-}
-.view-image-browser .views-row.image-browser-selected {
-  border: solid 3px #0074bd;
-  box-sizing: border-box;
-}
-.view-image-browser .views-row.image-browser-selected:after {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  content: "v";
-  padding: 5px
-}
-.view-image-browser .views-row .file--type-image img {
-  width: 100%;
-  max-width: none;
-  display: block;
-}
-.view-image-browser .views-row .field--name-filename {
-  font-size: 10px;
-}
-.view-image-browser .views-row .form-type-checkbox {
-  margin: 0;
 }
 
-.entity-browser-image-form > .form-actions {
-  clear: both;
-  width: 100%;
+.view-image-select .selected img {
+  border: 2px solid #0074bd;
 }
 
-.entity-browser-image-form .views-exposed-form .form--inline  .form-actions {
-  clear: none;
-  padding-top: 30px;
-}
-.eb-tabs ul { border-bottom: none; }
+input[name ^="entity_browser_select"] { display: none;  }
 
-/* Try improving the image select even further */
-.views-field-entity-browser-select .form-checkbox { display: none; }
+input[id $="entity-browser-open-modal"] { margin-bottom: 15px;  }
 
 
-/* Edit/delete image */
-
-.field--widget-entity-browser-file table.entities-list {
-  table-layout: auto;
-}
-.field--widget-entity-browser-file table.entities-list tbody td:first-child {
-  width: 140px;
-}
-
-/* Hide stuff */
+/* HIDE STUFF */
+/* --------------------------------------------------- */
 details[data-drupal-selector="edit-display"],
 details[data-drupal-selector="edit-access"],
 details[data-drupal-selector="edit-access-create"],
