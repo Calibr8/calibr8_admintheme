@@ -139,18 +139,3 @@
 input[name ^="entity_browser_select"] { display: none;  }
 
 input[id $="entity-browser-open-modal"] { margin-bottom: 15px;  }
-
-
-/* HIDE STUFF */
-/* --------------------------------------------------- */
-details[data-drupal-selector="edit-display"],
-details[data-drupal-selector="edit-access"],
-details[data-drupal-selector="edit-access-create"],
-details[data-drupal-selector="edit-access-update"],
-details[data-drupal-selector="edit-access-view"],
-details[data-drupal-selector="edit-admin"],
-details[data-drupal-selector="edit-custom"],
-details[data-drupal-selector="edit-conditional"],
-details[data-drupal-selector="edit-element-attributes"],
-details[data-drupal-selector="edit-wrapper-attributes"],
-.form-item-replace-upload { display: none; }
