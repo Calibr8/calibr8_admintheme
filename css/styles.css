@@ -1,15 +1,12 @@
-
 /* GLOBALS */
 /* --------------------------------------------------- */
 
 .paragraphs-subform .form-wrapper {
   margin-bottom: 10px;
 }
-
 .description {
-  color: #888888 !important;
+  color: #888 !important;
 }
-
 /* Page title */
 
 .node-form .field--name-title {
@@ -31,7 +28,6 @@
 .node-form .field--name-field-hide-page-title .form-item {
   margin: 0;
 }
-
 /* THEME SETTINGS */
 /* --------------------------------------------------- */
 
@@ -43,32 +39,27 @@
 .system-theme-settings .theme-settings-intro {
   margin-bottom: 30px;
 }
-
 /* PARAGRAPHS */
 /* --------------------------------------------------- */
 
 .paragraph-type-title .extra-markup {
   margin: 5px 0;
-  color: #888888;
+  color: #888;
 }
-
 /* Layout settings */
 
 .form-wrapper-layout-settings {
   background-color: #f7f7f7;
 }
-
 .form-wrapper-layout-settings .form-wrapper label {
   display: inline-block;
   width: 160px;
 }
-
 .field--name-field-title-align label:after,
 .field--name-field-text-align label:after,
 .field--name-field-paragraph-width label:after {
   display: none;
 }
-
 /* Title fields */
 
 .title-style-group .field--type-list-string {
@@ -87,7 +78,6 @@
 .title-style-group .field--type-string label {
   margin-left: -70px;
 }
-
 /* Cal to action */
 
 .field--name-field-call-to-action .field-multiple-table thead {
@@ -110,32 +100,24 @@
 .field--name-field-call-to-action .field-multiple-table .description {
   display: none;
 }
-
-
 /* FORMS */
 /* --------------------------------------------------- */
 .field--type-text-with-summary .filter-wrapper { padding: 0; border: none; }
-
 /* MEDIA */
 /* --------------------------------------------------- */
 
 .eb-tabs ul { border: none; }
-
 .view-image-select img {
-  border: 2px solid #cccccc;
+  border: 2px solid #ccc;
   max-width: 95%;
   max-height: 100%;
   height: auto;
 }
-
 .view-image-select .views-row {
   float: left;
 }
-
 .view-image-select .selected img {
   border: 2px solid #0074bd;
 }
-
-input[name ^="entity_browser_select"] { display: none;  }
-
-input[id $="entity-browser-open-modal"] { margin-bottom: 15px;  }
+input[name ^="entity_browser_select"] { display: none; }
+input[id $="entity-browser-open-modal"] { margin-bottom: 15px; }

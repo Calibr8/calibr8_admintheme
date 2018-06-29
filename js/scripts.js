@@ -1,6 +1,6 @@
 (function ($, Drupal) {
 
-	// Media Image browser
+  // Media Image browser
 
   // Disable the submit for this entity browser until we select an entity.
   if ($('.view-image-select .view-content .views-row').length > 0) {
@@ -9,7 +9,7 @@
 
   // Selector for finding the actual form inputs.
   var input = 'input[name ^= "entity_browser_select"]';
-	// Reset the selected entities counter to 0.
+  // Reset the selected entities counter to 0.
   var selectedEntities = 0;
 
   $('.view-image-select .views-row').on('click', function () {
@@ -22,14 +22,14 @@
       selectedEntities++;
     }
 
-		if (selectedEntities >= 1) {
+    if (selectedEntities >= 1) {
       // Enable the submit button for this entity browser.
       $('input.is-entity-browser-submit').removeAttr('disabled');
     }
     else {
       // Disable the submit button for this entity browser.
       $('input.is-entity-browser-submit').attr('disabled', 'disabled');
-  }
+    }
 
   });
 
@@ -38,7 +38,7 @@
 
     // Select the current clicked entity.
     $(this).addClass('selected').find(input).prop('checked', true);
-    
+
     // Unselect everything else.
     $('.view-image-select .views-row').not(this).removeClass('selected').find(input).prop('checked', false);
 
